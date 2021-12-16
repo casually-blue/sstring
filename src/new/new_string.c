@@ -4,7 +4,7 @@
 
 #include<sstring_private.h>
 
-String newString(char* cstring, int length) {
+String newString(const char* cstring, int length) {
         if(cstring == NULL) {
                 return NULL;
         }
